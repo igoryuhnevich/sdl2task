@@ -12,7 +12,7 @@ int main(int argc, char* args[]) {
   SDL_VERSION(&compiled);
   SDL_GetVersion(&linked);
 
-  std::cout << "We compiled against SDL version "
+  std::cout << "We CCCompiled against SDL version "
             << static_cast<int>(compiled.major) << '.'
             << static_cast<int>(compiled.minor) << '.'
             << static_cast<int>(compiled.patch) << std::endl;
